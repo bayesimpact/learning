@@ -1,0 +1,20 @@
+# A pile of imports that I use a lot and get
+# tired of importing
+import datetime
+import os
+import random
+
+import matplotlib.pyplot as plt
+import MySQLdb as mdb
+import numpy as np
+import pandas as pd
+import seaborn as sbn
+from scipy import interpolate
+from scipy.stats import gaussian_kde
+from sklearn import cross_validation, datasets, ensemble, linear_model
+from sklearn import metrics as sk_metrics
+from sklearn.preprocessing import Imputer
+
+import utils_db
+
+%matplotlib inline
