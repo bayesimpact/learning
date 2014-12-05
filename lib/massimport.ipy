@@ -1,5 +1,5 @@
-# A pile of imports that I use a lot and get
-# tired of importing
+# A pile of imports that I use a lot, plus some ipynb config stuff
+
 import datetime
 import os
 import random
@@ -15,4 +15,15 @@ from sklearn import cross_validation, datasets, ensemble, linear_model
 from sklearn import metrics as sk_metrics
 from sklearn.preprocessing import Imputer
 
+import base_model
+import utils_db
+
+plt.rc('figure', figsize=(9, 6))
+plt.rc('axes', labelsize=14, titlesize=16)
+plt.rc('xtick', labelsize=12)
+plt.rc('ytick', labelsize=12)
+plt.rc('legend', fontsize=12)
+
 %matplotlib inline
+%load_ext autoreload
+%autoreload 2
