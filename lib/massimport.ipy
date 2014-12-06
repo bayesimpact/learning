@@ -24,6 +24,5 @@ plt.rc('xtick', labelsize=12)
 plt.rc('ytick', labelsize=12)
 plt.rc('legend', fontsize=12)
 
-%matplotlib inline
 %load_ext autoreload
 %autoreload 2
