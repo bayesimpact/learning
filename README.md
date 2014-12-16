@@ -4,19 +4,22 @@ The best way to learn is by doing. Improving at data science is an active proces
 
 ### Notebooks in this repo
 
-##### Modeling and scikit-learn.ipynb
+  * Modeling and scikit-learn.ipynb
+    * Basics of loading a dataset (in this case, one included with sklearn) then creating and evaluating some out-of-the-box sklearn models.
+  * ROC Curve.ipynb
+    * What a ROC curve is, why it's useful, how to build one, and how to translate one to real-world concepts that non-engineers can understand.
+  * Proof that normalization matters.ipynb
+    * The result of an internal debate about the need to normalize data before fitting a regularized logistic regression model (so that the weights are properly traded off)
 
-Basics of loading a dataset (in this case, one included with sklearn) then creating and evaluating some out-of-the-box sklearn models.
+#### External resources
 
-##### ROC Curve.ipynb
+  * http://pandas.pydata.org/pandas-docs/stable/visualization.html
+    * Plotting with pandas
+  * http://radimrehurek.com/data_science_python/
+    * End-to-end spam filter, beginning with raw data and exploratory analysis, progressing to overfitting, cross-validation, etc. Pandas and sklearn.
+  * http://filepi.com/i/88U7T4b
+    * Python for Data Analysis (free pdf book) - ipython notebook, pandas, numpy, matplotlib
+  * http://scikit-learn.org/stable/tutorial/index.html
+    * Tutorial on machine learning and scikit-learn
 
-What a ROC curve is, why it's useful, how to build one, and how to translate one to real-world concepts that non-engineers can understand.
-
-#### External notebooks
-
-##### http://radimrehurek.com/data_science_python/
-
-End-to-end spam filter, beginning with raw data and exploratory analysis, progressing to overfitting, cross-validation, etc. Pandas and sklearn.
-
-Add more links here!
 
