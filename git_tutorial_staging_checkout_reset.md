@@ -8,9 +8,11 @@ Based on https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reve
 
 ## About this tutorial
 
-The git **staging** area is a weird concept for most people. Why do we need it? Honestly, often we don't, but it can be very useful. At minimum, understanding its theoretical use cases can help demistify the `git add/commit/checkout/reset` weirdness.
+The git **staging area** is a weird concept for most people. Why do we need it? Honestly, often we don't, but it can be very useful. At minimum, understanding its theoretical use cases can help demistify the `git add/commit/checkout/reset` weirdness.
 
 We're also going to focus on individual files here. `git reset` and `git checkout` can be run on on entire branches (e.g. `git reset HEAD`) or just specific files (e.g. `git reset HEAD foo.py`). These have *very* different behaviors, and here, we are only focused on the latter. More loudly, **we're only concerned with git checkout/reset on individual files.**
+
+One last thing -- the staging area is also called the "index" -- a much worse name, but the git documentation (git help...) uses that term. Just so you know.
 
 ### The three-headed git chimera
 
