@@ -16,7 +16,7 @@ The best way to learn is by doing. Improving at data science is an active proces
   * Proof that normalization matters.ipynb
     * The result of an internal debate about the need to normalize data before fitting a regularized logistic regression model (so that the weights are properly traded off)
 
-#### External resources
+### External resources
 
   * http://pandas.pydata.org/pandas-docs/stable/visualization.html
     * Plotting with pandas
