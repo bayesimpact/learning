@@ -2,6 +2,11 @@
 
 The best way to learn is by doing. Improving at data science is an active process, and this repo focuses on resources for haptic learning. We are building up some good in-house tutorials on how to do particular things, but don't aim to reinvent lessons that are done well elsewhere on the web. Hence we mix notebooks checked in here with links to resources elsewhere.
 
+### Uggghhghhg I feel like I suck at this
+
+1. [Watch this](https://www.youtube.com/watch?v=BI23U7U2aUY) - it will change your life.
+1. Keep going. Feeling unhappy with your work is a normal and important part of learning something new. If you can stick with it, you will surprise yourself.
+
 ### Notebooks in this repo
 
   * Modeling and scikit-learn.ipynb
